@@ -13,8 +13,8 @@ def solve3x3( coefficient_matrix, constants_matrix ):
     return solution_matrix
 
 def test():
-    coefficient_matrix = [ [3, 2, 3], [4, 5, 6], [7, 8, 9] ]
-    constant_matrix = [ [10], [11], [12] ]
+    coefficient_matrix = [ [2, 3, 1], [5, 5, 5], [10, 9, 4] ]
+    constant_matrix = [ [4], [20], [100] ]
 
     print( solve3x3(  coefficient_matrix, constant_matrix  ) )
 
